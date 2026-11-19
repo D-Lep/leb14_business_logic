@@ -1,0 +1,96 @@
+{
+  "turn_number": 2,
+  "history": [
+    {
+      "turn_number": 1,
+      "actor_id": "hero",
+      "target_id": "slime",
+      "action_type": "attack",
+      "message": "Аэтер -> Каменный страж: физ. урон 16.0, HP цели 134.0"
+    },
+    {
+      "turn_number": 1,
+      "actor_id": "hero",
+      "target_id": "slime",
+      "action_type": "ability",
+      "message": "Аэтер использует 'Искра' на Каменный страж: урон 33.0, HP цели 101.0"
+    },
+    {
+      "turn_number": 1,
+      "actor_id": "slime",
+      "target_id": "hero",
+      "action_type": "attack",
+      "message": "Каменный страж -> Аэтер: физ. урон 13.5, HP цели 106.5"
+    }
+  ],
+  "characters": [
+    {
+      "hp": 106.5,
+      "buffs": [],
+      "debuffs": [],
+      "profile": {
+        "id": "hero",
+        "name": "Аэтер",
+        "max_hp": 120,
+        "damage": 35,
+        "armor": 10,
+        "resist": 0.1,
+        "speed": 200,
+        "items": [
+          {
+            "id": "sword",
+            "name": "Клинок ветра",
+            "flat_damage": 5.0,
+            "bonus_prof": 0.2,
+            "armor_bonus": 0.0,
+            "resist_bonus": 0.0,
+            "speed_bonus": 0
+          }
+        ],
+        "abilities": [
+          {
+            "id": "spark",
+            "name": "Искра",
+            "base_damage": 25.0,
+            "is_magic": true,
+            "res_pen": 0.1,
+            "bonus_prof": 1.0,
+            "heal_amount": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "hp": 101.0,
+      "buffs": [],
+      "debuffs": [],
+      "profile": {
+        "id": "slime",
+        "name": "Каменный страж",
+        "max_hp": 150,
+        "damage": 25,
+        "armor": 15,
+        "resist": 0.2,
+        "speed": 100,
+        "items": [],
+        "abilities": []
+      }
+    },
+    {
+      "hp": 90,
+      "buffs": [],
+      "debuffs": [],
+      "profile": {
+        "id": "mage",
+        "name": "Лиза",
+        "max_hp": 90,
+        "damage": 20,
+        "armor": 5,
+        "resist": 0.15,
+        "speed": 150,
+        "items": [],
+        "abilities": []
+      }
+    }
+  ]
+}
